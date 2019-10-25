@@ -79,7 +79,7 @@ img {
   font-style: normal;
   font-weight: normal;
   src: local('League Spartan Bold'), url('LeagueSpartan-Bold.woff') format('woff');
-  }
+}
 
 ul,
 li {
@@ -87,12 +87,15 @@ li {
   padding: 0;
   list-style: none;
 }
-#home{
-  height: 800px;
+
+#home {
+  height: 1024px;
 }
-.text-footer p{
-  padding-top:10px;
+
+.text-footer p {
+  padding-top: 10px;
 }
+
 .clear-both:before,
 .clear-both:after {
   display: table;
@@ -103,10 +106,45 @@ li {
 .color-navy-blue {
   color: #041D57;
 }
-.logo-amoeba{
+
+.color-orange {
+  color: #f5aa1d;
+}
+
+.welcome-headline h1 {
+  /* font-size: 165px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 140px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  padding-top: 20px;
+}
+
+.welcome-headline-2 h1 {
+  font-size: 83px;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -30px;
+}
+
+.welcome-headline-3 h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+.logo-amoeba {
   height: 150px;
 }
-.logo-amoeba img{
+
+.logo-amoeba img {
   /* max-width: 500px; */
   /* padding: 20px 20px 10px 10px; */
   /* padding-top: 25px;
@@ -560,7 +598,7 @@ li {
   top: 0;
   left: 0;
   z-index: 9999999999;
-  background-color: #041D57;
+  background-color: rgb(0, 0, 0);
 }
 
 .spinner {
@@ -1034,7 +1072,8 @@ li {
 }
 
 .xs-footer-section .xs-footer-bottom-layer {
-  background-color: #021441;
+  /* background-color: #021441; */
+  background-color: #000000;
 }
 
 .xs-footer-section .xs-footer-bottom-layer .xs-footer-bottom-wraper {
@@ -3917,13 +3956,13 @@ li {
 
 .fundpress-header-main-version.xs-menu-style-transparent {
   /* background-color: rgba(255, 255, 255, 0.102); */
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.158);
 }
 
 .fundpress-header-main-version.xs-menu-style-border {
   /* border-bottom: 1px solid #EEEEEE; */
   position: fixed;
-  
+
 }
 
 .fundpress-header-main-version.xs-menu-style-solid {
@@ -3964,10 +4003,11 @@ li {
   position: absolute;
   content: "";
   left: 0;
-  bottom: 0;
+  bottom: 40px;
   height: 2px;
   width: 0%;
-  background-color: #041D57;
+  /* background-color: #041D57; */
+  background-color: rgb(255, 255, 255);
 }
 
 .fundpress-menu .nav-menu li a:hover:before {
@@ -4086,6 +4126,8 @@ li {
 
 .fundpress-welcome-section {
   position: relative;
+  margin-top: -250px;
+  /* margin-left: -5px; */
 }
 
 .fundpress-animate {
@@ -4151,11 +4193,56 @@ li {
   font-weight: 400;
 }
 
+.highlighter-orange hr {
+  background-color: #f5aa1d;
+  height: 36px;
+  margin-top: -46px;
+  margin-bottom: -20px;
+}
+
+.color-semi-black h2 {
+  margin-top: -52px;
+}
+
+/* .desc-heading h5 {
+  padding-top: 65;
+} */
+
 .fundpress-heading-title h2 {
-  margin: 0 0 15px;
-  font-size: 3.28571em;
+  /* margin-bottom: -50px; */
+  /*font-size: 3.28571em;
   letter-spacing: -0.2px;
-  line-height: 1.4em;
+  line-height: 1.4em;*
+  line-height: 0.99; */
+  margin-bottom: -50px;
+  font-size: 67.7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.99;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.fundpress-heading-title h3 {
+  /* margin-bottom: -50px; */
+  /*font-size: 3.28571em;
+  letter-spacing: -0.2px;
+  line-height: 1.4em;*
+  line-height: 0.99; */
+  margin-top: 50px;
+  margin-bottom: -50px;
+  font-size: 67.7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.99;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.fundpress-heading-title h5 {
+  margin-top: 80px;
 }
 
 .fundpress-heading-title p {
@@ -4617,7 +4704,8 @@ li {
 }
 
 .fundpress-footer-section {
-  background-color: #03194E;
+  /* background-color: #03194E; */
+  background-color: #000000;
 }
 
 .fundpress-footer-section .fundpress-footer-top-layer {
@@ -4632,6 +4720,7 @@ li {
   width: calc(100% - 100px);
   margin: 0 auto 30px 0;
 }
+
 .fundpress-footer-section .fundpress-footer-content h4 {
   /* font-size: 1em; */
   color: #FFFFFF;
@@ -4639,6 +4728,7 @@ li {
   padding: 2 2;
   /* line-height: 1.875; */
 }
+
 .fundpress-footer-section .fundpress-footer-content p {
   font-size: 1em;
   color: #FFFFFF;
