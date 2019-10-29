@@ -29,6 +29,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 #header {
   transition: height .4s ease;
 }
@@ -87,7 +88,11 @@ img {
   font-family: 'League Spartan Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('League Spartan Bold'), url('LeagueSpartan-Bold.woff') format('woff');
+  src: local('League Spartan Bold'), url('/assets/fonts/LeagueSpartan-Bold.woff') format('woff');
+}
+
+.txt-spartan {
+  font-family: 'League Spartan Bold';
 }
 
 ul,
@@ -121,8 +126,8 @@ li {
 }
 
 h4.text-amoeaba-special {
-  font-family: 'montserrat', sans-serif;
-  font-size: 45px !important;
+  font-family: 'League Spartan Bold';
+  font-size: 45px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -132,8 +137,16 @@ h4.text-amoeaba-special {
   color: #000000;
 }
 
+.bg-color-orange hr {
+  width: 1000px;
+  height: 67px;
+  background-color: #f5aa1d;
+  margin-left: -250px;
+  margin-top: -80px;
+}
+
 h4.text-amoeaba-say {
-  font-family: 'montserrat', sans-serif;
+  font-family: 'League Spartan Bold';
   font-size: 45px !important;
   font-weight: bold;
   font-stretch: normal;
@@ -146,10 +159,10 @@ h4.text-amoeaba-say {
 
 .text-amoeaba-say hr {
   width: 40%;
-  height: 22.1px;
-  border-radius: 10px;
+  height: 47.1px;
+  /* border-radius: 10px; */
   background-color: #f5aa1d;
-  margin-top: -3.5%;
+  margin-top: -5.5%;
 }
 
 span.text-author {
@@ -166,8 +179,8 @@ span.text-author {
 
 .welcome-headline h1 {
   /* font-size: 165px; */
-  font-family: 'Montserrat', sans-serif;
-  font-size: 140px;
+  font-family: 'League Spartan Bold';
+  font-size: 145px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -177,9 +190,9 @@ span.text-author {
 }
 
 .welcome-headline-2 h1 {
-  font-size: 83px;
+  font-size: 80px;
   line-height: 1.2;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'League Spartan Bold';
   margin-top: -30px;
 }
 
@@ -191,6 +204,13 @@ span.text-author {
   font-style: italic;
   line-height: 1.2;
   letter-spacing: normal;
+}
+
+.welcome-headline-2 span {
+  font-size: 83px;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -30px;
 }
 
 .logo-amoeba {
@@ -461,6 +481,10 @@ span.text-author {
   padding-bottom: 120px;
 }
 
+.xs-section-padding-bottom-200 {
+  padding-bottom: 200px;
+}
+
 .xs-bg-white {
   color: #FFFFFF;
 }
@@ -489,8 +513,13 @@ span.text-author {
 .xs-box-orange-amoeba-say {
   /* -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);*/
-  width: 332.7px;
+  /* width: 332.7px;
   height: 201.8px;
+  border-radius: 30px;
+  background-color: #f5aa1d; */
+  width: 332.7px;
+  height: 278px;
+  padding-right: 10px;
   border-radius: 30px;
   background-color: #f5aa1d;
 }
@@ -1474,7 +1503,20 @@ p.qoutes-desc {
 .icon-identify-btn.xs-big-button {
   width: 60px;
   height: 60px;
-  font-size: 1.14286em;
+  font-size: 1.5em;
+  background-color: #f5aa1d;
+  padding-left: 5px;
+}
+
+.bg-video {
+  height: 400px;
+  width: 700px;
+  border-radius: 20px;
+  background-color: #000000;
+  background-image: url('/assets/images/thumbnail-video.png');
+  background-size: 103%;
+  background-repeat: no-repeat;
+  background-position-y: 2rem;
 }
 
 .xs-list-item-icon-text.xs-side-by-side-list {
@@ -4045,7 +4087,7 @@ p.qoutes-desc {
 .fundpress-header-main-version.xs-menu-style-transparent {
   /* background-color: rgba(255, 255, 255, 0.102); */
   /* background-color: rgba(0, 0, 0, 0.5); */
-  /* background-color: rgba(0, 0, 0, 0.925); */
+  background-color: rgba(0, 0, 0, 0.925);
 }
 
 .fundpress-header-main-version.xs-menu-style-border {
@@ -4285,8 +4327,8 @@ p.qoutes-desc {
 .highlighter-orange hr {
   background-color: #f5aa1d;
   height: 36px;
-  margin-top: -46px;
-  margin-bottom: -20px;
+  margin-top: -50px;
+  /* margin-bottom: -20px; */
 }
 
 .color-semi-black h2 {
@@ -6954,7 +6996,7 @@ img.logo-author {
 }
 
 .logo-author {
-  margin-bottom: -50px;
+  /* margin-bottom: -50px;
   z-index: 1;
   background-color: #f5aa1d;
   height: 150px;
@@ -6962,5 +7004,17 @@ img.logo-author {
   border-radius: 100px;
   position: relative;
   text-align: center;
+  z-index: 0; */
+  margin-bottom: -50px;
+  margin-left: 25.5%;
+  margin-right: 32.5%;
+  z-index: 1;
+  background-color: #f5aa1d;
+  height: 150px;
+  width: 150px;
+  width: 42%;
+  border-radius: 100px;
+  position: relative;
+  /* text-align: center; */
   z-index: 0;
 }
