@@ -137,12 +137,62 @@ h4.text-amoeaba-special {
   color: #000000;
 }
 
+h2.text-amoeaba-culture {
+  font-family: 'League Spartan Bold';
+  font-size: 85px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 2.92; */
+  letter-spacing: normal;
+  text-align: left;
+  padding-top: 100px;
+  margin-top: -180px;
+  /* font-size: 67.7px; */
+  /* font-weight: bold; */
+  /* font-stretch: normal;
+    font-style: normal; */
+  line-height: 1.3em;
+  /* letter-spacing: normal; */
+}
+
+.culture-title h3 {
+  font-family: 'League Spartan Bold';
+  font-size: 31.2px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.99;
+  letter-spacing: normal;
+  color: #000000;
+  margin-bottom: 0px;
+}
+
+.culture-title p {
+  /* font-family: Montserrat; */
+  font-size: 13.9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
 .bg-color-orange hr {
   width: 1000px;
   height: 67px;
   background-color: #f5aa1d;
   margin-left: -250px;
   margin-top: -80px;
+}
+
+.bg-circle-orange {
+  width: 144.4px;
+  height: 127.7px;
+  background-color: #f5aa1d;
+  border-radius: 50%;
 }
 
 h4.text-amoeaba-say {
@@ -234,6 +284,13 @@ span.text-author {
 .fundpress-sponsor-section .fundpress-heading-title {
   text-align: center;
   margin: 0 auto;
+  font-family: 'League Spartan Bold';
+  font-size: 92.7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.72;
+  letter-spacing: normal;
 }
 
 .content-left {
@@ -1010,6 +1067,7 @@ p.qoutes-desc {
 
 .xs-tab-nav .nav-tabs .nav-item .nav-link {
   border-radius: 0;
+  /* border-radius: 7.6px; */
   border: 0px;
 }
 
@@ -4352,7 +4410,7 @@ p.qoutes-desc {
   font-style: normal;
   line-height: 0.99;
   letter-spacing: normal;
-  text-align: left;
+  /* text-align: left; */
 }
 
 .fundpress-heading-title h3 {
@@ -4447,6 +4505,7 @@ p.qoutes-desc {
   position: relative;
   padding: 11px 17px;
   border-radius: 17.5px;
+  /* border-radius: 7.6px; */
   font-size: 1em;
   text-transform: capitalize;
   color: #637296;
@@ -4457,9 +4516,16 @@ p.qoutes-desc {
 .fundpress-tab-nav ul.nav-tabs li.nav-item a.nav-link:hover,
 .fundpress-tab-nav ul.nav-tabs li.nav-item a.nav-link.active {
   /* background-color: #4CC899; */
-  background-color: #FAAC1B;
+  /* background-color: #FAAC1B; */
+  background-color: #1a1a1a;
   -webkit-box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.1);
+  /* font-size: 20px; */
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 1.76;
+  letter-spacing: normal; */
   color: #FFFFFF;
 }
 
@@ -6025,6 +6091,7 @@ p.qoutes-desc {
 
 .fundpress-grid-item-content-v2 {
   background-color: #FFFFFF;
+
 }
 
 .fundpress-grid-item-content-v2 .xs-item-header-content {
@@ -6420,7 +6487,8 @@ p.qoutes-desc {
 }
 
 .fundpress-grid-item-content {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
+  background-color: #f5aa1d;
   -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.08);
   /* height: 450px; */
@@ -6970,6 +7038,76 @@ p.qoutes-desc {
   font-weight: 400;
   margin-bottom: 0;
 }
+
+.text-title {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.text-title h3 {
+  font-family: 'League Spartan Bold';
+  font-size: 25.6px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+p.job-title {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  margin-right: -50px;
+  margin-bottom: 5px;
+}
+
+p.job-desc {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+  margin-right: -50px;
+}
+
+p.job-title-2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  margin-right: -50px;
+  margin-bottom: 5px;
+}
+
+p.job-desc-2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+  margin-right: -50px;
+}
+
+.img-circle img {
+  border-radius: 50%;
+}
+
 
 span.text-title {
   color: #000000;
